@@ -599,6 +599,6 @@ Find files containing text (`-l` outputs only the file names, `-i` ignores the c
 
     grep -lir "some text" *
 
-Search command-line history
+Search bash history
 
     history | grep git
