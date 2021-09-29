@@ -602,3 +602,6 @@ Find files containing text (`-l` outputs only the file names, `-i` ignores the c
 Search bash history
 
     history | grep git
+    
+    # Or for something more likely to work across different distros.  Remember, command history is stored in the home directory file `.bash_history`.
+    grep "git" ~/.bash_history
