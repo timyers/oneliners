@@ -609,4 +609,5 @@ Search bash history
     grep "git" ~/.bash_history
     
 Concatenate all files in a directory
+
     cat $(ls *txt.gz) > outputfile.txt.gz
