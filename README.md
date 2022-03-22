@@ -607,3 +607,6 @@ Search bash history
     
     # Or for something more likely to work across different distros.  Remember, command history is stored in the home directory file `.bash_history`.
     grep "git" ~/.bash_history
+    
+Concatenate all files in a directory
+    cat $(ls *txt.gz) > outputfile.txt.gz
